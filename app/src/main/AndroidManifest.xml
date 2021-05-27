@@ -21,9 +21,7 @@
 
         <provider
             android:authorities="com.example.android.contentprovidersample.provider"
-            android:name=".provider.SampleContentProvider"
-            android:exported="true"
-            android:permission="com.example.android.contentprovidersample.provider.READ_WRITE"/>
+            android:name=".provider.SampleContentProvider" />
 
     </application>
 
